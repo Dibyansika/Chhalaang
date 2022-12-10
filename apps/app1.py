@@ -5,7 +5,7 @@ import numpy as np
 
 def app():        
 
-    st.title("Software Developer Salary Prediction")
+    st.title("Salary Prediction")
     df = pd.read_csv('survey.csv')
     dataset = pd.read_csv('survey_no.csv')
     X = dataset.iloc[:, :-1].values
